@@ -4,7 +4,7 @@ import streamlit as st
 import pandas as pd
 import requests
 
-load_dotenv()  # Load environment variables from .env file
+load_dotenv('dev.env')  # Load environment variables from .env file
 
 st.title('Azure Container Apps')
 st.subheader('Using Microservices from a web application')

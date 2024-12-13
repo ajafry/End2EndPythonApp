@@ -1,4 +1,4 @@
 # dotenv environment variables file
-.env
+dev.env
 .toml
-Deploy.ps1
+**/.venv*/
